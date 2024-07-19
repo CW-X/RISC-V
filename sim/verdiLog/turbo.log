@@ -1,0 +1,15 @@
+Command Line: /Business/EDA_wx_company/public/tools/verdi_R-2020.12-SP2/platform/LINUXAMD64/bin/Novas -sv -top top -f filelist.f -ssf sim.fsdb -nologo
+uname(Linux yznode-big-07 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64)
+type= DS_SCOPE element= 2 field= 1
+VERILOG top
+VERILOG pkt_bus
+VERILOG pkt_out_dut
+-----
+second field= DebussyLib
+third field= pkt_if
+VERILOG top
+VERILOG pkt_bus
+VERILOG pkt_out_rm
+-----
+second field= DebussyLib
+third field= pkt_if

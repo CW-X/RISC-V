@@ -1,0 +1,184 @@
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-debug_all' will be deprecated in a future release.  Please use 
+  '-debug_acc+all+dmptf -debug_region+cell+encrypt' instead.
+
+Command: vcs -full64 -sverilog +v2k -sverilog -debug_access+all -f filelist.f -timescale=1ns/1ns \
+-debug_all -cm line+cond+tgl+fsm+assert+branch -cm_dir coverage/cov.vdb -l compile.log \
+
+                         Chronologic VCS (TM)
+       Version R-2020.12-SP2_Full64 -- Fri Jul 19 13:46:33 2024
+
+                    Copyright (c) 1991 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-debug_all' will be deprecated in a future release.  Please use 
+  '-debug_acc+all -debug_region+cell+encrypt' instead.
+
+Parsing design file '../ver_component/DUT/RTL/adder.sv'
+Parsing design file '../ver_component/DUT/RTL/ALUdec.sv'
+Parsing design file '../ver_component/DUT/RTL/ALU.sv'
+Parsing design file '../ver_component/DUT/RTL/Control_Unit.sv'
+Parsing design file '../ver_component/DUT/RTL/data_extend.sv'
+Parsing design file '../ver_component/DUT/RTL/Data_Memory.sv'
+Parsing design file '../ver_component/DUT/RTL/extend.sv'
+Parsing design file '../ver_component/DUT/RTL/ff_D2E.sv'
+Parsing design file '../ver_component/DUT/RTL/ff_E2M.sv'
+Parsing design file '../ver_component/DUT/RTL/ff_F2D.sv'
+Parsing design file '../ver_component/DUT/RTL/ff_M2W.sv'
+Parsing design file '../ver_component/DUT/RTL/ff_pc.sv'
+Parsing design file '../ver_component/DUT/RTL/Hazard_Unit.sv'
+Parsing design file '../ver_component/DUT/RTL/imem.sv'
+Parsing design file '../ver_component/DUT/RTL/mux2.sv'
+Parsing design file '../ver_component/DUT/RTL/mux3.sv'
+Parsing design file '../ver_component/DUT/RTL/mux_Branch.sv'
+Parsing design file '../ver_component/DUT/RTL/mux_Result.sv'
+Parsing design file '../ver_component/DUT/RTL/Register_File.sv'
+Parsing design file '../ver_component/DUT/RTL/RISCV_TopLevel.sv'
+
+Warning-[IPDW] Identifier previously declared
+../ver_component/DUT/RTL/RISCV_TopLevel.sv, 18
+  Second declaration for identifier 'RD1E' ignored
+  Identifier 'RD1E' previously declared as logic. 
+  [../ver_component/DUT/RTL/RISCV_TopLevel.sv, 17]
+
+
+Warning-[IPDW] Identifier previously declared
+../ver_component/DUT/RTL/RISCV_TopLevel.sv, 18
+  Second declaration for identifier 'RD2E' ignored
+  Identifier 'RD2E' previously declared as logic. 
+  [../ver_component/DUT/RTL/RISCV_TopLevel.sv, 17]
+
+Parsing design file '../ver_component/env_cfg.sv'
+Parsing design file '../ver_component/environment.sv'
+Parsing included file '../ver_component/pkt_gen.sv'.
+Parsing included file '../ver_component/pkt_data.sv'.
+Back to file '../ver_component/pkt_gen.sv'.
+Parsing included file '../ver_component/env_cfg.sv'.
+Back to file '../ver_component/pkt_gen.sv'.
+Back to file '../ver_component/environment.sv'.
+Parsing included file '../ver_component/pkt_drv.sv'.
+Back to file '../ver_component/environment.sv'.
+Parsing included file '../ver_component/pkt_mon.sv'.
+Parsing included file '../ver_component/pkt_data.sv'.
+Back to file '../ver_component/pkt_mon.sv'.
+Parsing included file '../ver_component/pkt_if.sv'.
+Back to file '../ver_component/pkt_mon.sv'.
+Parsing included file '../ver_component/env_cfg.sv'.
+Back to file '../ver_component/pkt_mon.sv'.
+Back to file '../ver_component/environment.sv'.
+Parsing included file '../ver_component/pkt_chk.sv'.
+Parsing included file '../ver_component/pkt_data.sv'.
+Back to file '../ver_component/pkt_chk.sv'.
+Parsing included file '../ver_component/env_cfg.sv'.
+Back to file '../ver_component/pkt_chk.sv'.
+Back to file '../ver_component/environment.sv'.
+Parsing included file '../ver_component/env_cfg.sv'.
+Back to file '../ver_component/environment.sv'.
+Parsing included file '../ver_component/pkt_if_pack.sv'.
+Parsing included file '../ver_component/pkt_if.sv'.
+Back to file '../ver_component/pkt_if_pack.sv'.
+Back to file '../ver_component/environment.sv'.
+Parsing design file '../ver_component/pkt_chk.sv'
+Parsing design file '../ver_component/pkt_data.sv'
+Parsing design file '../ver_component/pkt_drv.sv'
+Parsing design file '../ver_component/pkt_gen.sv'
+Parsing design file '../ver_component/pkt_if_pack.sv'
+Parsing included file '../ver_component/pkt_if.sv'.
+Back to file '../ver_component/pkt_if_pack.sv'.
+Parsing design file '../ver_component/pkt_if.sv'
+Parsing design file '../ver_component/pkt_mon.sv'
+Parsing design file '../ver_component/rm/RTL/adder.sv'
+Parsing design file '../ver_component/rm/RTL/ALUdec.sv'
+Parsing design file '../ver_component/rm/RTL/ALU.sv'
+Parsing design file '../ver_component/rm/RTL/Control_Unit.sv'
+Parsing design file '../ver_component/rm/RTL/data_extend.sv'
+Parsing design file '../ver_component/rm/RTL/Data_Memory.sv'
+Parsing design file '../ver_component/rm/RTL/extend.sv'
+Parsing design file '../ver_component/rm/RTL/ff_D2E.sv'
+Parsing design file '../ver_component/rm/RTL/ff_E2M.sv'
+Parsing design file '../ver_component/rm/RTL/ff_F2D.sv'
+Parsing design file '../ver_component/rm/RTL/ff_M2W.sv'
+Parsing design file '../ver_component/rm/RTL/ff_pc.sv'
+Parsing design file '../ver_component/rm/RTL/Hazard_Unit.sv'
+Parsing design file '../ver_component/rm/RTL/imem.sv'
+Parsing design file '../ver_component/rm/RTL/mux2.sv'
+Parsing design file '../ver_component/rm/RTL/mux3.sv'
+Parsing design file '../ver_component/rm/RTL/mux_Branch.sv'
+Parsing design file '../ver_component/rm/RTL/mux_Result.sv'
+Parsing design file '../ver_component/rm/RTL/Register_File.sv'
+Parsing design file '../ver_component/rm/RTL/riscv_core.sv'
+
+Warning-[IPDW] Identifier previously declared
+../ver_component/rm/RTL/riscv_core.sv, 18
+  Second declaration for identifier 'RD1E' ignored
+  Identifier 'RD1E' previously declared as logic. 
+  [../ver_component/rm/RTL/riscv_core.sv, 17]
+
+
+Warning-[IPDW] Identifier previously declared
+../ver_component/rm/RTL/riscv_core.sv, 18
+  Second declaration for identifier 'RD2E' ignored
+  Identifier 'RD2E' previously declared as logic. 
+  [../ver_component/rm/RTL/riscv_core.sv, 17]
+
+Parsing design file '../ver_component/test.sv'
+Parsing included file '../ver_component/./environment.sv'.
+Parsing included file '../ver_component/pkt_gen.sv'.
+Back to file '../ver_component/./environment.sv'.
+Parsing included file '../ver_component/pkt_drv.sv'.
+Back to file '../ver_component/./environment.sv'.
+Parsing included file '../ver_component/pkt_mon.sv'.
+Back to file '../ver_component/./environment.sv'.
+Parsing included file '../ver_component/pkt_chk.sv'.
+Back to file '../ver_component/./environment.sv'.
+Parsing included file '../ver_component/env_cfg.sv'.
+Back to file '../ver_component/./environment.sv'.
+Parsing included file '../ver_component/pkt_if_pack.sv'.
+Parsing included file '../ver_component/pkt_if.sv'.
+Back to file '../ver_component/pkt_if_pack.sv'.
+Back to file '../ver_component/./environment.sv'.
+Back to file '../ver_component/test.sv'.
+Parsing design file '../ver_component/top.sv'
+Parsing included file '../ver_component/DUT/RTL/RISCV_TopLevel.sv'.
+Back to file '../ver_component/top.sv'.
+Parsing included file '../ver_component/rm/RTL/riscv_core.sv'.
+Back to file '../ver_component/top.sv'.
+Top Level Modules:
+       data_extend
+       mux_Branch
+       top
+TimeScale is 1 ns / 1 ps
+VCS Coverage Metrics Release R-2020.12-SP2_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+19 modules and 0 UDP read.
+recompiling module test
+	However, due to incremental compilation, only 1 module needs to be compiled. 
+make[1]: Entering directory `/Business/EDA_wx_company/xingchangwen/RISC-V/7_19_cheat_version/RISCV_project/RISCV_verification_cheat_version/sim/csrc' \
+
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic --no-relax  -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o \
+
+rm -f _cuarc0.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib -L/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _127370_archive_1.so _prev_archive_1.so \
+_cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile \
+-lreader_common /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/libBA.a \
+-luclinative /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/vcs_save_restore_new.o \
+/Business/EDA_wx_company/public/tools/verdi_R-2020.12-SP2/share/PLI/VCS/LINUX64/pli.a \
+-ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/Business/EDA_wx_company/xingchangwen/RISC-V/7_19_cheat_version/RISCV_project/RISCV_verification_cheat_version/sim/csrc' \
+
+CPU time: 1.179 seconds to compile + .703 seconds to elab + .599 seconds to link

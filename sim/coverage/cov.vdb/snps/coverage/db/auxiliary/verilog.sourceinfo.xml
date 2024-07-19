@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE cov SYSTEM "ucdb_srcinfo.dtd">
+  <srcinfo name="/Business/EDA_wx_company/xingchangwen/RISC-V/7_19_cheat_version/RISCV_project/RISCV_verification_cheat_version/sim"  >
+    <ucapi_version  major_ver="13"  minor_ver="1"  patch_str="R-2020.12-SP2"  />
+      <fileinfo name="../ver_component/DUT/RTL/adder.sv"  id="0"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/ALUdec.sv"  id="1"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/ALU.sv"  id="2"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/Control_Unit.sv"  id="3"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/data_extend.sv"  id="4"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/Data_Memory.sv"  id="5"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/extend.sv"  id="6"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/ff_D2E.sv"  id="7"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/ff_E2M.sv"  id="8"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/ff_F2D.sv"  id="9"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/ff_M2W.sv"  id="10"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/ff_pc.sv"  id="11"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/Hazard_Unit.sv"  id="12"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/imem.sv"  id="13"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/mux2.sv"  id="14"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/mux3.sv"  id="15"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/mux_Branch.sv"  id="16"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/mux_Result.sv"  id="17"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/Register_File.sv"  id="18"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/DUT/RTL/RISCV_TopLevel.sv"  id="19"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/env_cfg.sv"  id="20"  timestamp="1721367567"  />
+      <fileinfo name="../ver_component/environment.sv"  id="21"  timestamp="1721367969"  />
+      <fileinfo name="../ver_component/pkt_gen.sv"  id="22"  timestamp="1721366360"  />
+      <fileinfo name="../ver_component/pkt_data.sv"  id="23"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/pkt_drv.sv"  id="24"  timestamp="1721366346"  />
+      <fileinfo name="../ver_component/pkt_mon.sv"  id="25"  timestamp="1721366376"  />
+      <fileinfo name="../ver_component/pkt_if.sv"  id="26"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/pkt_chk.sv"  id="27"  timestamp="1721366750"  />
+      <fileinfo name="../ver_component/pkt_if_pack.sv"  id="28"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/adder.sv"  id="29"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/ALUdec.sv"  id="30"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/ALU.sv"  id="31"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/Control_Unit.sv"  id="32"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/data_extend.sv"  id="33"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/Data_Memory.sv"  id="34"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/extend.sv"  id="35"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/ff_D2E.sv"  id="36"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/ff_E2M.sv"  id="37"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/ff_F2D.sv"  id="38"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/ff_M2W.sv"  id="39"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/ff_pc.sv"  id="40"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/Hazard_Unit.sv"  id="41"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/imem.sv"  id="42"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/mux2.sv"  id="43"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/mux3.sv"  id="44"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/mux_Branch.sv"  id="45"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/mux_Result.sv"  id="46"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/Register_File.sv"  id="47"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/rm/RTL/riscv_core.sv"  id="48"  timestamp="1721357869"  />
+      <fileinfo name="../ver_component/test.sv"  id="49"  timestamp="1721367755"  />
+      <fileinfo name="../ver_component/./environment.sv"  id="50"  timestamp="1721367969"  />
+      <fileinfo name="../ver_component/top.sv"  id="51"  timestamp="1721358992"  />
+    </srcinfo>

@@ -1,0 +1,18 @@
+rc file Version 1.0
+
+[Design]
+COMPILE_PATH=/Business/EDA_wx_company/xingchangwen/RISC-V/7_19_cheat_version/RISCV_project/RISCV_verification_cheat_version/sim
+VCS_HOME=/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2
+VERDI_HOME=/Business/EDA_wx_company/public/tools/verdi_R-2020.12-SP2
+SystemC=FALSE
+UUM=FALSE
+KDB=FALSE
+USE_NOVAS_HOME=FALSE
+COSIM=FALSE
+TOP=data_extend mux_Branch top 
+OPTION=-ssz -ssv -ssy 
+ELAB_OPTION=-ssz -ssv -ssy 
+
+[Value]
+WREALX=ffff534e50535f58
+WREALZ=ffff534e50535f5a

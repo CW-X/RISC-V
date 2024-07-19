@@ -1,0 +1,284 @@
+Command: /Business/EDA_wx_company/xingchangwen/RISC-V/sim/./simv +fsdb+sva_success -cm line+cond+tgl+fsm+assert+branch -l run.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP2_Full64; Runtime version R-2020.12-SP2_Full64;  Jul 19 14:07 2024
+*Verdi* Loading libsscore_vcs202012.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP2, Linux x86_64/64bit, 05/23/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'sim.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the SVA assertions, layer (0).
+*Verdi* : Enable +sva_success dumping.
+*Verdi* : End of traversing the SVA assertions.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+At 0, [ENV NOTE]: environment::new() start!
+At 0, [ENV NOTE]: environment::build() start!
+At 0, gen_idle = 1
+At 0, drv_idle = 1
+At 100000, [CHK NOTE]: get a expect pkt
+At 150000, [CHK NOTE]: get a actual pkt
+At 150000, [CHK NOTE]: match!!!!
+At 200000, [CHK NOTE]: get a expect pkt
+At 250000, [CHK NOTE]: get a actual pkt
+At 250000, [CHK NOTE]: match!!!!
+At 300000, [CHK NOTE]: get a expect pkt
+At 350000, [CHK NOTE]: get a actual pkt
+At 350000, [CHK NOTE]: match!!!!
+At 400000, [CHK NOTE]: get a expect pkt
+At 450000, [CHK NOTE]: get a actual pkt
+At 450000, [CHK NOTE]: match!!!!
+At 500000, [CHK NOTE]: get a expect pkt
+At 550000, [CHK NOTE]: get a actual pkt
+At 550000, [CHK NOTE]: match!!!!
+At 600000, [CHK NOTE]: get a expect pkt
+op=????
+At 650000, [CHK NOTE]: get a actual pkt
+At 650000, [CHK NOTE]: match!!!!
+At 700000, [CHK NOTE]: get a expect pkt
+############################
+######## sub test  #########
+############################
+At 750000, [CHK NOTE]: get a actual pkt
+At 750000, [CHK NOTE]: match!!!!
+At 800000, [CHK NOTE]: get a expect pkt
+op=????
+At 850000, [CHK NOTE]: get a actual pkt
+At 850000, [CHK NOTE]: match!!!!
+At 900000, [CHK NOTE]: get a expect pkt
+At 950000, [CHK NOTE]: get a actual pkt
+At 950000, [CHK NOTE]: match!!!!
+At 1000000, [ENV NOTE]: wait for end............
+At 1000000, [CHK NOTE]: get a expect pkt
+At 1050000, [CHK NOTE]: get a actual pkt
+At 1050000, [CHK NOTE]: match!!!!
+At 1100000, [CHK NOTE]: get a expect pkt
+At 1150000, [CHK NOTE]: get a actual pkt
+At 1150000, [CHK NOTE]: match!!!!
+At 1200000, [CHK NOTE]: get a expect pkt
+At 1250000, [CHK NOTE]: get a actual pkt
+At 1250000, [CHK NOTE]: match!!!!
+At 1300000, [CHK NOTE]: get a expect pkt
+At 1350000, [CHK NOTE]: get a actual pkt
+At 1350000, [CHK NOTE]: match!!!!
+At 1400000, [CHK NOTE]: get a expect pkt
+At 1450000, [CHK NOTE]: get a actual pkt
+At 1450000, [CHK NOTE]: match!!!!
+At 1500000, [CHK NOTE]: get a expect pkt
+At 1550000, [CHK NOTE]: get a actual pkt
+At 1550000, [CHK NOTE]: match!!!!
+At 1600000, [CHK NOTE]: get a expect pkt
+At 1650000, [CHK NOTE]: get a actual pkt
+At 1650000, [CHK NOTE]: match!!!!
+At 1700000, [CHK NOTE]: get a expect pkt
+At 1750000, [CHK NOTE]: get a actual pkt
+At 1750000, [CHK NOTE]: match!!!!
+At 1800000, [CHK NOTE]: get a expect pkt
+At 1850000, [CHK NOTE]: get a actual pkt
+At 1850000, [CHK NOTE]: match!!!!
+At 1900000, [CHK NOTE]: get a expect pkt
+At 1950000, [CHK NOTE]: get a actual pkt
+At 1950000, [CHK NOTE]: match!!!!
+At 2000000, [CHK NOTE]: get a expect pkt
+At 2050000, [CHK NOTE]: get a actual pkt
+At 2050000, [CHK NOTE]: match!!!!
+At 2100000, [CHK NOTE]: get a expect pkt
+At 2150000, [CHK NOTE]: get a actual pkt
+At 2150000, [CHK NOTE]: match!!!!
+At 2200000, [CHK NOTE]: get a expect pkt
+At 2250000, [CHK NOTE]: get a actual pkt
+At 2250000, [CHK NOTE]: match!!!!
+At 2300000, [CHK NOTE]: get a expect pkt
+At 2350000, [CHK NOTE]: get a actual pkt
+At 2350000, [CHK NOTE]: match!!!!
+At 2400000, [CHK NOTE]: get a expect pkt
+At 2450000, [CHK NOTE]: get a actual pkt
+At 2450000, [CHK NOTE]: match!!!!
+At 2500000, [CHK NOTE]: get a expect pkt
+At 2550000, [CHK NOTE]: get a actual pkt
+At 2550000, [CHK NOTE]: match!!!!
+At 2600000, [CHK NOTE]: get a expect pkt
+At 2650000, [CHK NOTE]: get a actual pkt
+At 2650000, [CHK NOTE]: match!!!!
+At 2700000, [CHK NOTE]: get a expect pkt
+At 2750000, [CHK NOTE]: get a actual pkt
+At 2750000, [CHK NOTE]: match!!!!
+At 2800000, [CHK NOTE]: get a expect pkt
+At 2850000, [CHK NOTE]: get a actual pkt
+At 2850000, [CHK NOTE]: match!!!!
+At 2900000, [CHK NOTE]: get a expect pkt
+At 2950000, [CHK NOTE]: get a actual pkt
+At 2950000, [CHK NOTE]: match!!!!
+At 3000000, [CHK NOTE]: get a expect pkt
+At 3050000, [CHK NOTE]: get a actual pkt
+At 3050000, [CHK NOTE]: match!!!!
+At 3100000, [CHK NOTE]: get a expect pkt
+At 3150000, [CHK NOTE]: get a actual pkt
+At 3150000, [CHK NOTE]: match!!!!
+At 3200000, [CHK NOTE]: get a expect pkt
+At 3250000, [CHK NOTE]: get a actual pkt
+At 3250000, [CHK NOTE]: match!!!!
+At 3300000, [CHK NOTE]: get a expect pkt
+At 3350000, [CHK NOTE]: get a actual pkt
+At 3350000, [CHK NOTE]: match!!!!
+At 3400000, [CHK NOTE]: get a expect pkt
+At 3450000, [CHK NOTE]: get a actual pkt
+At 3450000, [CHK NOTE]: match!!!!
+At 3500000, [CHK NOTE]: get a expect pkt
+At 3550000, [CHK NOTE]: get a actual pkt
+At 3550000, [CHK NOTE]: match!!!!
+At 3600000, [CHK NOTE]: get a expect pkt
+At 3650000, [CHK NOTE]: get a actual pkt
+At 3650000, [CHK NOTE]: match!!!!
+At 3700000, [CHK NOTE]: get a expect pkt
+At 3750000, [CHK NOTE]: get a actual pkt
+At 3750000, [CHK NOTE]: match!!!!
+At 3800000, [CHK NOTE]: get a expect pkt
+At 3850000, [CHK NOTE]: get a actual pkt
+At 3850000, [CHK NOTE]: match!!!!
+At 3900000, [CHK NOTE]: get a expect pkt
+At 3950000, [CHK NOTE]: get a actual pkt
+At 3950000, [CHK NOTE]: match!!!!
+At 4000000, [CHK NOTE]: get a expect pkt
+At 4050000, [CHK NOTE]: get a actual pkt
+At 4050000, [CHK NOTE]: match!!!!
+At 4100000, [CHK NOTE]: get a expect pkt
+At 4150000, [CHK NOTE]: get a actual pkt
+At 4150000, [CHK NOTE]: match!!!!
+At 4200000, [CHK NOTE]: get a expect pkt
+At 4250000, [CHK NOTE]: get a actual pkt
+At 4250000, [CHK NOTE]: match!!!!
+At 4300000, [CHK NOTE]: get a expect pkt
+At 4350000, [CHK NOTE]: get a actual pkt
+At 4350000, [CHK NOTE]: match!!!!
+At 4400000, [CHK NOTE]: get a expect pkt
+At 4450000, [CHK NOTE]: get a actual pkt
+At 4450000, [CHK NOTE]: match!!!!
+At 4500000, [CHK NOTE]: get a expect pkt
+At 4550000, [CHK NOTE]: get a actual pkt
+At 4550000, [CHK NOTE]: match!!!!
+At 4600000, [CHK NOTE]: get a expect pkt
+At 4650000, [CHK NOTE]: get a actual pkt
+At 4650000, [CHK NOTE]: match!!!!
+At 4700000, [CHK NOTE]: get a expect pkt
+At 4750000, [CHK NOTE]: get a actual pkt
+At 4750000, [CHK NOTE]: match!!!!
+At 4800000, [CHK NOTE]: get a expect pkt
+At 4850000, [CHK NOTE]: get a actual pkt
+At 4850000, [CHK NOTE]: match!!!!
+At 4900000, [CHK NOTE]: get a expect pkt
+At 4950000, [CHK NOTE]: get a actual pkt
+At 4950000, [CHK NOTE]: match!!!!
+At 5000000, [CHK NOTE]: get a expect pkt
+At 5050000, [CHK NOTE]: get a actual pkt
+At 5050000, [CHK NOTE]: match!!!!
+At 5100000, [CHK NOTE]: get a expect pkt
+At 5150000, [CHK NOTE]: get a actual pkt
+At 5150000, [CHK NOTE]: match!!!!
+At 5200000, [CHK NOTE]: get a expect pkt
+At 5250000, [CHK NOTE]: get a actual pkt
+At 5250000, [CHK NOTE]: match!!!!
+At 5300000, [CHK NOTE]: get a expect pkt
+At 5350000, [CHK NOTE]: get a actual pkt
+At 5350000, [CHK NOTE]: match!!!!
+At 5400000, [CHK NOTE]: get a expect pkt
+At 5450000, [CHK NOTE]: get a actual pkt
+At 5450000, [CHK NOTE]: match!!!!
+At 5500000, [CHK NOTE]: get a expect pkt
+At 5550000, [CHK NOTE]: get a actual pkt
+At 5550000, [CHK NOTE]: match!!!!
+At 5600000, [CHK NOTE]: get a expect pkt
+At 5650000, [CHK NOTE]: get a actual pkt
+At 5650000, [CHK NOTE]: match!!!!
+At 5700000, [CHK NOTE]: get a expect pkt
+At 5750000, [CHK NOTE]: get a actual pkt
+At 5750000, [CHK NOTE]: match!!!!
+At 5800000, [CHK NOTE]: get a expect pkt
+At 5850000, [CHK NOTE]: get a actual pkt
+At 5850000, [CHK NOTE]: match!!!!
+At 5900000, [CHK NOTE]: get a expect pkt
+At 5950000, [CHK NOTE]: get a actual pkt
+At 5950000, [CHK NOTE]: match!!!!
+At 6000000, [CHK NOTE]: get a expect pkt
+At 6050000, [CHK NOTE]: get a actual pkt
+At 6050000, [CHK NOTE]: match!!!!
+At 6100000, [CHK NOTE]: get a expect pkt
+At 6150000, [CHK NOTE]: get a actual pkt
+At 6150000, [CHK NOTE]: match!!!!
+At 6200000, [CHK NOTE]: get a expect pkt
+At 6250000, [CHK NOTE]: get a actual pkt
+At 6250000, [CHK NOTE]: match!!!!
+At 6300000, [CHK NOTE]: get a expect pkt
+At 6350000, [CHK NOTE]: get a actual pkt
+At 6350000, [CHK NOTE]: match!!!!
+At 6400000, [CHK NOTE]: get a expect pkt
+At 6450000, [CHK NOTE]: get a actual pkt
+At 6450000, [CHK NOTE]: match!!!!
+At 6500000, [CHK NOTE]: get a expect pkt
+At 6550000, [CHK NOTE]: get a actual pkt
+At 6550000, [CHK NOTE]: match!!!!
+At 6600000, [CHK NOTE]: get a expect pkt
+At 6650000, [CHK NOTE]: get a actual pkt
+At 6650000, [CHK NOTE]: match!!!!
+At 6700000, [CHK NOTE]: get a expect pkt
+At 6750000, [CHK NOTE]: get a actual pkt
+At 6750000, [CHK NOTE]: match!!!!
+At 6800000, [CHK NOTE]: get a expect pkt
+At 6850000, [CHK NOTE]: get a actual pkt
+At 6850000, [CHK NOTE]: match!!!!
+At 6900000, [CHK NOTE]: get a expect pkt
+At 6950000, [CHK NOTE]: get a actual pkt
+At 6950000, [CHK NOTE]: match!!!!
+At 7000000, [CHK NOTE]: get a expect pkt
+At 7050000, [CHK NOTE]: get a actual pkt
+At 7050000, [CHK NOTE]: match!!!!
+At 7100000, [CHK NOTE]: get a expect pkt
+At 7150000, [CHK NOTE]: get a actual pkt
+At 7150000, [CHK NOTE]: match!!!!
+At 7200000, [CHK NOTE]: get a expect pkt
+At 7250000, [CHK NOTE]: get a actual pkt
+At 7250000, [CHK NOTE]: match!!!!
+At 7300000, [CHK NOTE]: get a expect pkt
+At 7350000, [CHK NOTE]: get a actual pkt
+At 7350000, [CHK NOTE]: match!!!!
+At 7400000, [CHK NOTE]: get a expect pkt
+At 7450000, [CHK NOTE]: get a actual pkt
+At 7450000, [CHK NOTE]: match!!!!
+At 7500000, [CHK NOTE]: get a expect pkt
+At 7550000, [CHK NOTE]: get a actual pkt
+At 7550000, [CHK NOTE]: match!!!!
+At 7600000, [CHK NOTE]: get a expect pkt
+At 7650000, [CHK NOTE]: get a actual pkt
+At 7650000, [CHK NOTE]: match!!!!
+At 7700000, [CHK NOTE]: get a expect pkt
+At 7750000, [CHK NOTE]: get a actual pkt
+At 7750000, [CHK NOTE]: match!!!!
+At 7800000, [CHK NOTE]: get a expect pkt
+At 7850000, [CHK NOTE]: get a actual pkt
+At 7850000, [CHK NOTE]: match!!!!
+At 7900000, mon_idle = 1
+At 7900000, mon_idle = 1
+At 7900000, [CHK NOTE]: get a expect pkt
+At 7950000, [CHK NOTE]: get a actual pkt
+At 7950000, [CHK NOTE]: match!!!!
+At 13000000, chk_idle = 1
+At 13000000, [ENV NOTE]: normal finish
+At 13000000, [ENV NOTE]: report start
+----------------------------------------------------------------------------------------------------
+[CHECKER REPORT]expect pkt_num=79, actual pkt_num=79, match pkt_num=79, not match pkt_num=0
+----------------------------------------------------------------------------------------------------
+At 13000000, [ENV NOTE]: report over
+At 13000000, [TEST NOTE]: simulation finish~~~~~~~~~~~~~~~~~~
+$finish called from file "../ver_component/test.sv", line 14.
+$finish at simulation time             13000000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, branch, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 13000000 ps
+CPU Time:      3.030 seconds;       Data structure size:   5.1Mb
+Fri Jul 19 14:07:53 2024

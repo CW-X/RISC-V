@@ -1,0 +1,204 @@
+18       
+0 pkt_gen.sv
+0 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/etc/systemverilog/pkt_gen.sv
+0 pkt_data.sv
+0 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/etc/systemverilog/pkt_data.sv
+0 env_cfg.sv
+0 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/etc/systemverilog/env_cfg.sv
+0 pkt_drv.sv
+0 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/etc/systemverilog/pkt_drv.sv
+0 pkt_mon.sv
+0 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/etc/systemverilog/pkt_mon.sv
+0 pkt_if.sv
+0 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/etc/systemverilog/pkt_if.sv
+0 pkt_chk.sv
+0 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/etc/systemverilog/pkt_chk.sv
+0 pkt_if_pack.sv
+0 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/etc/systemverilog/pkt_if_pack.sv
+0 ./environment.sv
+0 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/etc/systemverilog/./environment.sv
+42
++itf+/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/vcsdp_lite.tab
++v2k
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/libvirsim.so /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/liberrorinf.so /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/libsnpsmalloc.so /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/Business/EDA_wx_company/public/tools/verdi_R-2020.12-SP2/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/include
+-Mxllcflags=
+-P
+-cm
+-cm_dir
+-debug_access+all
+-debug_access+all+bc
+-debug_region+cell
+-f filelist.f
+-fsdb
+-full64
+-gen_obj
+-l
+-picarchive
+-sverilog
+-sverilog
+-timescale=1ns/1ns
+/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/bin/vcs1
+compile.log
+line+cond+tgl+fsm+assert+branch
+coverage/cov.vdb
+/Business/EDA_wx_company/public/tools/verdi_R-2020.12-SP2/share/PLI/VCS/LINUX64/verdi.tab
+filelist.f
+76
+XMODIFIERS=@im=ibus
+XDG_SESSION_ID=94796
+XDG_RUNTIME_DIR=/run/user/4214
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/Business/EDA_wx_company/xingchangwen/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+XDG_CURRENT_DESKTOP=GNOME
+XCELIUM_HOME=/Business/EDA_wx_company/public/tools/cadence/XCELIUM1903
+WORK_AREA=/Business/EDA_wx_company/xingchangwen/RISC-V/7_19_cheat_version/RISCV_project/RISCV_verification_cheat_version
+W3264_NO_HOST_CHECK=1
+VTE_VERSION=5204
+VSIM_PATH=/Business/EDA_wx_company/public/pulp-runtime/sim
+VNCDESKTOP=yznode-big-07:31 (xingchangwen)
+VMR_MODE_FLAG=64
+VERDI_HOME=/Business/EDA_wx_company/public/tools/verdi_R-2020.12-SP2
+VC_STATIC_HOME=/Business/EDA_wx_company/public/tools/vc_static_S-2021.09-SP2
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=compile.log
+VCS_HOME=/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+VCSHOME=/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2
+UNAME=/bin/uname
+TOOL_HOME=/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64
+SYN_HOME=/Business/EDA_wx_company/public/tools/syn_Q-2019.12-SP4
+SSH_TTY=/dev/pts/33
+SSH_CONNECTION=10.10.4.8 41354 10.10.15.17 22
+SSH_CLIENT=10.10.4.8 41354 22
+SSH_AUTH_SOCK=/run/user/4214/keyring/ssh
+SSH_AGENT_PID=38908
+SIM=/Business/EDA_wx_company/xingchangwen/RISC-V/7_19_cheat_version/RISCV_project/RISCV_verification_cheat_version/sim
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/38685,unix/unix:/tmp/.ICE-unix/38685
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=ibus
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PYTHONPATH=/opt/rh/devtoolset-8/root/usr/lib64/python2.7/site-packages:/opt/rh/devtoolset-8/root/usr/lib/python2.7/site-packages
+PULP_RISCV_GCC_TOOLCHAIN=/Business/EDA_wx_company/public/pulp-riscv-gnu-toolchain/bin/
+PKG_CONFIG_PATH=/opt/rh/devtoolset-8/root/usr/lib64/pkgconfig
+PERL5LIB=/opt/rh/devtoolset-8/root//usr/lib64/perl5/vendor_perl:/opt/rh/devtoolset-8/root/usr/lib/perl5:/opt/rh/devtoolset-8/root//usr/share/perl5/vendor_perl
+PCP_DIR=/opt/rh/devtoolset-8/root
+OVA_UUM=0
+NOVAS_HOME=/Business/EDA_wx_company/public/tools/verdi_R-2020.12-SP2
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+IC_HOME=/Business/EDA_wx_company/public/tools/cadence/IC617.722
+IC=/Business/EDA_wx_company/public/tools/cadence/IC617.722
+HISTCONTROL=ignoredups
+GNOME_TERMINAL_SERVICE=:1.481
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/d6cac134_5d8c_4a83_bba8_dd1a0ed3b455
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+EDA=/Business/EDA_wx_company/public/tools
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-cn4Job7dce,guid=35e4902d6a0e73778d2d2bfa6686143b
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-cn4Job7dce,guid=35e4902d6a0e73778d2d2bfa6686143b
+COLORTERM=truecolor
+CDS_Netlisting_Mode=Analog
+CDS_INST_DIR=/Business/EDA_wx_company/public/tools/cadence/IC617.722
+CDS_AUTO_64BIT=ALL
+CDSHOME=/Business/EDA_wx_company/public/tools/cadence/IC617.722
+CADENCE_HOME=/Business/EDA_wx_company/public/tools/cadence
+0
+56
+1721367969 ../ver_component/./environment.sv
+1721358992 ../ver_component/top.sv
+1721367755 ../ver_component/test.sv
+1721357869 ../ver_component/rm/RTL/riscv_core.sv
+1721357869 ../ver_component/rm/RTL/Register_File.sv
+1721357869 ../ver_component/rm/RTL/mux_Result.sv
+1721357869 ../ver_component/rm/RTL/mux_Branch.sv
+1721357869 ../ver_component/rm/RTL/mux3.sv
+1721357869 ../ver_component/rm/RTL/mux2.sv
+1721357869 ../ver_component/rm/RTL/imem.sv
+1721357869 ../ver_component/rm/RTL/Hazard_Unit.sv
+1721357869 ../ver_component/rm/RTL/ff_pc.sv
+1721357869 ../ver_component/rm/RTL/ff_M2W.sv
+1721357869 ../ver_component/rm/RTL/ff_F2D.sv
+1721357869 ../ver_component/rm/RTL/ff_E2M.sv
+1721357869 ../ver_component/rm/RTL/ff_D2E.sv
+1721357869 ../ver_component/rm/RTL/extend.sv
+1721357869 ../ver_component/rm/RTL/Data_Memory.sv
+1721357869 ../ver_component/rm/RTL/data_extend.sv
+1721357869 ../ver_component/rm/RTL/Control_Unit.sv
+1721357869 ../ver_component/rm/RTL/ALU.sv
+1721357869 ../ver_component/rm/RTL/ALUdec.sv
+1721357869 ../ver_component/rm/RTL/adder.sv
+1721366376 ../ver_component/pkt_mon.sv
+1721357869 ../ver_component/pkt_if.sv
+1721357869 ../ver_component/pkt_if_pack.sv
+1721366360 ../ver_component/pkt_gen.sv
+1721366346 ../ver_component/pkt_drv.sv
+1721357869 ../ver_component/pkt_data.sv
+1721366750 ../ver_component/pkt_chk.sv
+1721367969 ../ver_component/environment.sv
+1721367567 ../ver_component/env_cfg.sv
+1721357869 ../ver_component/DUT/RTL/RISCV_TopLevel.sv
+1721357869 ../ver_component/DUT/RTL/Register_File.sv
+1721357869 ../ver_component/DUT/RTL/mux_Result.sv
+1721357869 ../ver_component/DUT/RTL/mux_Branch.sv
+1721357869 ../ver_component/DUT/RTL/mux3.sv
+1721357869 ../ver_component/DUT/RTL/mux2.sv
+1721357869 ../ver_component/DUT/RTL/imem.sv
+1721357869 ../ver_component/DUT/RTL/Hazard_Unit.sv
+1721357869 ../ver_component/DUT/RTL/ff_pc.sv
+1721357869 ../ver_component/DUT/RTL/ff_M2W.sv
+1721357869 ../ver_component/DUT/RTL/ff_F2D.sv
+1721357869 ../ver_component/DUT/RTL/ff_E2M.sv
+1721357869 ../ver_component/DUT/RTL/ff_D2E.sv
+1721357869 ../ver_component/DUT/RTL/extend.sv
+1721357869 ../ver_component/DUT/RTL/Data_Memory.sv
+1721357869 ../ver_component/DUT/RTL/data_extend.sv
+1721357869 ../ver_component/DUT/RTL/Control_Unit.sv
+1721357869 ../ver_component/DUT/RTL/ALU.sv
+1721357869 ../ver_component/DUT/RTL/ALUdec.sv
+1721357869 ../ver_component/DUT/RTL/adder.sv
+1622257846 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/include/cm_vcsd.tab
+1721358922 filelist.f
+1621785728 /Business/EDA_wx_company/public/tools/verdi_R-2020.12-SP2/share/PLI/VCS/LINUX64/verdi.tab
+1622257851 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/vcsdp_lite.tab
+4
+1622259091 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/libvirsim.so
+1622258561 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/liberrorinf.so
+1622258323 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/libsnpsmalloc.so
+1622258557 /Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/libvfs.so
+1721367996 simv.daidir
+-1 partitionlib

@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib:/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/Business/EDA_wx_company/public/tools/vcs_R-2020.12-SP2/linux64/bin/vcsfind_create_index.exe  -z  "/Business/EDA_wx_company/xingchangwen/RISC-V/7_19_cheat_version/RISCV_project/RISCV_verification_cheat_version/sim/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" -o "/Business/EDA_wx_company/xingchangwen/RISC-V/7_19_cheat_version/RISCV_project/RISCV_verification_cheat_version/sim/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/Business/EDA_wx_company/xingchangwen/RISC-V/7_19_cheat_version/RISCV_project/RISCV_verification_cheat_version/sim/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/Business/EDA_wx_company/xingchangwen/RISC-V/7_19_cheat_version/RISCV_project/RISCV_verification_cheat_version/sim/simv.daidir/debug_dump/fsearch/fsearch.db"
