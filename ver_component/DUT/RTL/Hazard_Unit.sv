@@ -2,8 +2,10 @@
 `define Hazard_Unit
 module Hazard_Unit(input logic [4:0] Rs1D, Rs2D, Rs1E, Rs2E,
 										RdE, RdM, RdW, 
+					input logic [31:0] PC, PCM, PCE, target_PC,
 					input logic [2:0]  ResultSrcE,
 					input logic RegWriteM, RegWriteW, PCSrcE,
+					input logic branchE,
 					output logic StallF, StallD, FlushE, FlushD,
 					output logic [1:0] ForwardAE, ForwardBE);
 						 
@@ -49,6 +51,8 @@ module Hazard_Unit(input logic [4:0] Rs1D, Rs2D, Rs1E, Rs2E,
 		end
 	
 	assign FlushD = PCSrcE;
-		
+	
+assign predict = (PCSrcE && target_PC == PCE) || (branchE && !PCSrcE && PCE == PCM + 4);
+
 endmodule
 `endif

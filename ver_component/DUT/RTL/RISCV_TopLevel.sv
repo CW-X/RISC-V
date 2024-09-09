@@ -52,9 +52,12 @@ assign RD = ReadDataM;
 assign WE = MemWriteM;
 
 //Fetch state
-mux2 #(32) mux2_PC(.d0(PCPlus4F), .d1(PCTargetE), .s(PCSrcE), .y(PCNext));
-ff_pc #(32) ff_pc_ut(.CLK(clk), .EN(StallF), .RST(reset), .D(PCNext), .Q(PCF));
-adder pcadder4(.a(PCF), .b(32'd4), .out(PCPlus4F));
+module PC_gen(.clk(clk), .reset(reset),
+				.PC(PC), .PCM(CPM),.PCSrcE(PCSrcE),
+				.target_PC(PCTargetE),
+				.branch(BranchE), .predict(predict), .pc_next(pc_next));
+
+ff_pc #(32) ff_pc_ut(.CLK(clk), .EN(StallF), .RST(reset), .D(pc_next), .Q(PCF));
 imem imem_ut( .A(PCF), .RD(InstrF));
 
 ff_F2D ff_F2D_ut(.PCF(PCF), .PCPlus4F(PCPlus4F), .InstrF(InstrF), .CLK(clk), .EN(StallD), .CLR(FlushD), .RST(reset),
@@ -133,7 +136,9 @@ mux_Result #(32) mux_Result_ut(.d0(ALUResultW), .d1(ReadDataW), .d2(PCPlus4W), .
 
 //Harzard Unit 
 Hazard_Unit Hazard_Unit_ut(.Rs1D(InstrD[19:15]), .Rs2D(InstrD[24:20]), .Rs1E(Rs1E), .Rs2E(Rs2E),
-			.RdE(RdE), .RdM(RdM), .RdW(RdW), 
+			.RdE(RdE), .RdM(RdM), .RdW(RdW),
+			.PC(PC), .PCM(PCM), .PCE(PCE),.target_PC(PCTargetE),
+			.branchE(branchE), 
 			.RegWriteM(RegWriteM), .RegWriteW(RegWriteW), .ResultSrcE(ResultSrcE), .PCSrcE(PCSrcE),
 			.StallF(StallF), .StallD(StallD), .FlushE(FlushE), .FlushD(FlushD),
 			.ForwardAE(ForwardAE), .ForwardBE(ForwardBE));
